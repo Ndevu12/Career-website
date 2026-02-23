@@ -6,7 +6,7 @@ import {
   categoryLabels,
   categoryColors,
   type OpportunitiesCategory,
-} from "@/lib/opportunities-data";
+} from "@/src/lib/opportunities-data";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -26,7 +26,7 @@ import {
   Brain,
   Palette,
 } from "lucide-react";
-import { OpportunityCard } from "@/components/Opportunity-card";
+import { OpportunityCard } from "@/src/components/Opportunity-card";
 
 interface PageProps {
   params: Promise<{

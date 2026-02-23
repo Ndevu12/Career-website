@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { opportunities } from "@/lib/opportunities-data";
+import { opportunities } from "@/src/lib/opportunities-data";
 import Link from "next/link";
 
 export default function ApplyPage() {

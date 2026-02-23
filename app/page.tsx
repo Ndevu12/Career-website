@@ -1,7 +1,7 @@
-import { HomeHero } from "@/components/home-hero";
-import { HomePillars } from "@/components/home-pillars";
-import { HomeOpportunities } from "@/components/home-open-positions";
-import { HomeCTA } from "@/components/home-cta";
+import { HomeHero } from "@/src/components/home-hero";
+import { HomePillars } from "@/src/components/home-pillars";
+import { HomeOpportunities } from "@/src/components/home-open-positions";
+import { HomeCTA } from "@/src/components/home-cta";
 
 export default function Home() {
   return (

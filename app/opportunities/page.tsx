@@ -1,14 +1,14 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { OpportunityCard } from "@/components/Opportunity-card";
+import { OpportunityCard } from "@/src/components/Opportunity-card";
 import {
   opportunities,
   categoryLabels,
   categoryColors,
   type Opportunity,
   type OpportunitiesCategory,
-} from "@/lib/opportunities-data";
+} from "@/src/lib/opportunities-data";
 import {
   Search,
   X,
